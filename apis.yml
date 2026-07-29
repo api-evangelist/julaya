@@ -1,7 +1,17 @@
 aid: julaya
 name: Julaya
-description: Julaya is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Julaya is a West African B2B fintech, founded in 2018 and headquartered in
+  Abidjan, Cote d'Ivoire, that digitizes corporate financial operations across
+  the UEMOA zone (Cote d'Ivoire, Senegal, Benin and Togo). Its pro account lets
+  businesses send mobile money and bank transfers, collect cash and mobile-money
+  deposits, pay suppliers and run payroll, and receive UEMOA-wide transfers via a
+  Julaya IBAN, with multi-company sub-wallets, approval and signature workflows,
+  real-time transaction tracking and accounting exports. Julaya is licensed as a
+  payment establishment in Cote d'Ivoire and connects businesses to mobile-money
+  rails including Orange Money, Wave, MTN MoMo, Moov and Wizall. A partner
+  integration API (api.julaya.co) exposes disbursement and collection
+  programmatically for enterprise customers.
 url: https://raw.githubusercontent.com/api-evangelist/julaya/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +19,77 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://julaya.co/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-apis: []
+- Payments
+- Mobile Money
+- Disbursements
+- Collections
+- Payroll
+- Fintech
+- West Africa
+- UEMOA
+- B2B Payments
+- Financial Services
+apis:
+- name: Julaya Partner API
+  description: >-
+    Auth-gated partner integration API for programmatic disbursement (mobile
+    money and bank transfers) and collection (cash and mobile money) across the
+    UEMOA zone. Access is provisioned for enterprise/partner accounts; no public
+    specification is published.
+  humanURL: https://julaya.co/en/products/transfer
+  baseURL: https://api.julaya.co
+  tags:
+  - Payments
+  - Disbursements
+  - Collections
+  properties: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/julaya-domain-security.yml
+- type: Website
+  url: https://julaya.co
+- type: DeveloperPortal
+  url: https://pro.julaya.co/
+- type: SignUp
+  url: https://pro.julaya.co/
+- type: Pricing
+  url: https://julaya.co/en/prices
+- type: Blog
+  url: https://blog.julaya.co/
+- type: Support
+  url: https://julaya.co/en/contact
+- type: TermsOfService
+  url: https://julaya.co/en/legals
+- type: PrivacyPolicy
+  url: https://julaya.co/en/privacy
+- type: GitHubOrganization
+  url: https://github.com/Julaya
+- type: StatusPage
+  url: https://status.julaya.co
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
