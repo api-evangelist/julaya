@@ -39,6 +39,18 @@ tags:
 - Payments
 - Mobile Money
 - Disbursements
+- Collection
+- Payroll
+- Fintech
+- West Africa
+- UEMOA
+- B2B Payments
+- Financial-Services
+tags_raw:
+- Company
+- Payments
+- Mobile Money
+- Disbursements
 - Collections
 - Payroll
 - Fintech
@@ -56,6 +68,10 @@ apis:
   humanURL: https://julaya.co/en/products/transfer
   baseURL: https://api.julaya.co
   tags:
+  - Payments
+  - Disbursements
+  - Collection
+  tags_raw:
   - Payments
   - Disbursements
   - Collections
