@@ -56,7 +56,7 @@ tags:
 - West Africa
 - UEMOA
 - B2B Payments
-- Financial-Services
+- Financial Services
 tags_raw:
 - Company
 - Payments
@@ -69,6 +69,7 @@ tags_raw:
 - UEMOA
 - B2B Payments
 - Financial Services
+- Financial-Services
 apis:
 - name: Julaya Partner API
   description: >-
